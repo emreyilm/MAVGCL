@@ -49,7 +49,7 @@ V0.6xx notes:
 
 **Requirements:**
 
-- requires minimum  **Java 8** JRE (Java 9/10 compatible)
+- requires minimum  **Java 8** JRE (Java 9/10 compatible) 
 - A companion running a serial-to-udp-proxy (either MAVComm or MAVROS, not required for PIXRacer)
 - Video streaming from the vehicle requires an mjpeg streaming service (e.g.  [uv4l](http://www.linux-projects.org)) running on companion 
 
@@ -70,6 +70,7 @@ Available binaries can be found [here](https://github.com/ecmnet/MAVGCL/releases
 - Clone repository
 - Goto main directory  `cd MAVGCL-master/MAVGCL`
 - Run `ant all`
+- INSTALL THIS (sudo apt-get install openjfx) if you receive a compilation error due to missing java components
 
 **How to start after build  (all platforms):**
 
